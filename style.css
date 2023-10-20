@@ -2,3 +2,42 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* navbar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px 0px rgba(212,212,197,0.96);
+    padding: 17px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    color: #1C1E53;
+    list-style: none;
+    margin-right: 35px;
+    font-size: 16px;
+
+}
+nav img{
+    width: 185px;
+    height: 40px;
+    margin-left: 50px;
+}
+.home-color{
+    color: #5E3BEE;
+}
+.btn-style{
+    color: #5E3BEE;
+    height: 40px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+    
+}
+.btn-style:hover{
+    color: #FFFFFF;
+    background-color: #5E3BEE;
+}
