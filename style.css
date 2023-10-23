@@ -7,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 1px 5px 0px rgba(212,212,197,0.96);
+    box-shadow: 0px 4px 8px 0px rgba(212,212,197,0.96);
     padding: 17px;
 }
 nav ul{
@@ -106,6 +106,7 @@ nav img{
     display: flex;
     margin-left: 50px;
     gap: 30px;
+    margin-right: 35px;
     
 }
 .skill-div{
@@ -120,12 +121,17 @@ nav img{
     height: 80px;
     margin-top: 20px;
 }
+
+/* about me style */
+
 .about-me{
     display: flex;
     height: 500px;
     align-items: center;
     margin-top: 100px;
     gap: 50px;
+    margin-left: 50px;
+    margin-right: 35px;
 }
 .about-me img{
     width: 500px;
@@ -133,4 +139,63 @@ nav img{
 }
 .skills{
     margin-left: 20px;
+}
+
+/* Portfolio style */
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 35px;
+}
+.dribble-btn{
+    background-color: #E62872;
+    align-items: center;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+}
+.btn-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.dribble-pic{
+    width: 32px;
+    height: 32px;
+}
+.Portfolio-items{
+    display: flex;
+    gap: 40px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 35px;
+}
+.card{
+    width: 33%;
+    height: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.container{
+    padding: 18px;
+}
+.container a{
+    text-decoration: none;
+}
+.porfolio-img{
+    width: 100%;
+}
+.porfolio-title{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 700;
+}
+.portfolio-des{
+    color: #1C1E53;
+    font-size: 16px;
+    font-weight: 400;
 }
