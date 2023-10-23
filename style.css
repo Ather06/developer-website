@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* navbar style  */
+/* navbar style section  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ nav img{
     background-color: #5E3BEE;
 }
 
-/* banner style */
+/* banner style section */
 .banner{
     background-color: #F5FCFF;
     display: flex;
@@ -61,7 +61,7 @@ nav img{
     color:#282938;
 }
 .title{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     color:#282938;
     margin-top: 21px;
@@ -85,7 +85,7 @@ nav img{
     height: 400px;
     margin-top: 18px;
 }
- /* my skill style */
+ /* my skill style section */
  .skill-title{
     margin-left: 50px;
     margin-top: 150px;
@@ -122,7 +122,7 @@ nav img{
     margin-top: 20px;
 }
 
-/* about me style */
+/* about me style section */
 
 .about-me{
     display: flex;
@@ -141,7 +141,7 @@ nav img{
     margin-left: 20px;
 }
 
-/* Portfolio style */
+/* Portfolio style section */
 .portfolio{
     display: flex;
     justify-content: space-between;
@@ -184,7 +184,7 @@ nav img{
     padding: 18px;
 }
 .container a{
-    text-decoration: none;
+    text-decoration-style: dotted;
 }
 .porfolio-img{
     width: 100%;
@@ -198,4 +198,49 @@ nav img{
     color: #1C1E53;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* feedback-testimonials style section */
+.feedback-section{
+    height: 600px;
+    background-color: #F5FCFF;
+}
+.testimonial-container{
+    margin-left: 50px;
+    margin-top: 150px;
+    padding-top: 40px;
+}
+.feedback-container{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 35px;
+    gap: 40px;
+}
+.feed-des{
+    color: #1C1E53;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.feedback-box{
+    width: 33%;
+    height: 220px;
+    border: 1px solid #006B6A;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.avatar-img{
+    width: 120px;
+    height: 22px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+.testimonial-img{
+    width: 50px;
+    height: 50px;
 }
