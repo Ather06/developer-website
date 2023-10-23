@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* navbar style */
+/* navbar style  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -30,14 +30,55 @@ nav img{
 .home-color{
     color: #5E3BEE;
 }
-.btn-style{
+.btn-style-1{
     color: #5E3BEE;
     height: 40px;
     border: 1px solid #5E3BEE;
     border-radius: 5px;
     
 }
-.btn-style:hover{
+.btn-style-1:hover{
     color: #FFFFFF;
     background-color: #5E3BEE;
+}
+
+/* banner style */
+.banner{
+    background-color: #F5FCFF;
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.banner-title{
+    margin-left: 80px;
+}
+.banner span{
+    color: #5E3BEE;
+}
+.banner h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#282938;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    color:#282938;
+}
+.banner p{
+    font-size: 24px;
+    color:#1C1E53;
+}
+.btn-style-2{
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.banner img{
+    width: 500px;
+    height: 400px;
 }
