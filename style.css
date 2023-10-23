@@ -55,18 +55,18 @@ nav img{
 .banner span{
     color: #5E3BEE;
 }
-.banner h3{
+.sub-title{
     font-size: 21px;
     font-weight: 600;
     color:#282938;
 }
-.banner h1{
+.title{
     font-size: 65px;
     font-weight: 700;
     color:#282938;
     margin-top: 21px;
 }
-.banner p{
+.description{
     font-size: 24px;
     color:#1C1E53;
     margin-top: 18px;
@@ -120,10 +120,17 @@ nav img{
     height: 80px;
     margin-top: 20px;
 }
-.skill-div img,h2,p{
+.about-me{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+.about-me img{
+    width: 500px;
+    height: 600px;
+}
+.skills{
     margin-left: 20px;
 }
-/* .skill-div:hover{
-    border-bottom: 1px;
-    border-color: #5E3BEE;
-} */
