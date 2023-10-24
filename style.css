@@ -244,3 +244,59 @@ nav img{
     width: 50px;
     height: 50px;
 }
+/* contact form style section */
+.contact-heading{
+    text-align: center;
+    margin-top: 150px;
+}
+.form-area{
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+.form-title{
+    color: #282938;
+    font-size: 16px;
+    
+}
+.input-group{
+    margin-bottom: 20px;
+}
+input,select{
+    height: 35px;
+}
+input,textarea,select{
+    width: 100%;
+    margin-top: 15px;
+    border: 1.5px solid #5E3BEE;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+.topic-width{
+    width: 100%;
+}
+.btn-style-3{
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 120px;
+   
+}
